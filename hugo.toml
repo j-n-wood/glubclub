@@ -1,0 +1,28 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Glub Club'
+theme = 'PaperMod'
+
+[params]
+    defaultTheme = "dark"
+    # This disables the automatic list of posts on the home page
+    showFullContents = true
+
+    [params.homeInfoParams]
+
+    [[menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/blog/"
+        weight = 10
+    [[menu.main]]
+        identifier = "iotd"
+        name = "Chicken of the Day"
+        url = "/cotd/"
+        weight = 20
+
+    showReadMore = true
+    schema = false
+    ShowShareButtons = false
+    ShowCodeCopyButtons = false
+    disableJSONLD = true # disabled as breaks --minify
