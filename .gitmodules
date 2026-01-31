@@ -1,6 +1,0 @@
-[submodule "themes/nightfall"]
-	path = themes/nightfall
-	url = https://github.com/lordmathis/hugo-theme-nightfall.git
-[submodule "themes/anubis"]
-	path = themes/anubis
-	url = https://github.com/mitrichius/hugo-theme-anubis.git
