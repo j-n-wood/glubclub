@@ -4,4 +4,4 @@ draft = false
 title = 'Glub Club'
 +++
 
-![Glub glub glub](/images/glub.jpeg)
+![Glub glub glub](/images/GC_header.jpg)
