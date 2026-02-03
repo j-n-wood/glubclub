@@ -1,5 +1,5 @@
 +++
-date = '2026-03-01T20:22:14+13:00'
+date = '2026-02-03T20:22:14+13:00'
 draft = false
 title = 'More boot issues'
 +++
