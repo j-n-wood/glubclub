@@ -1,0 +1,49 @@
+/* Target the entry container */
+.post-entry {
+    display: grid;
+    /* This creates two columns: '1fr' (flexible text) and '200px' (fixed image) */
+    grid-template-columns: 1fr 200px;
+    /* Defines the vertical order of text elements in the first column */
+    grid-template-areas:
+        "header cover"
+        "content cover"
+        "footer cover";
+    column-gap: 30px;
+    align-items: start;
+}
+
+/* Assign each part of the post to its grid area */
+.entry-header {
+    grid-area: header;
+}
+.entry-content {
+    grid-area: content;
+}
+.entry-footer {
+    grid-area: footer;
+}
+
+/* The Image Container */
+.post-entry .entry-cover {
+    grid-area: cover;
+    margin: 0 !important; /* Removes theme default spacing */
+    width: 100%;
+}
+
+/* Ensure image fills the 200px column */
+.post-entry .entry-cover img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Mobile: Switch back to a single column */
+@media (max-width: 700px) {
+    .post-entry {
+        display: block; /* Disables grid */
+    }
+    .post-entry .entry-cover {
+        width: 100%;
+        margin-bottom: 20px !important;
+    }
+}
