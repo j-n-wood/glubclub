@@ -16,9 +16,14 @@ theme = 'PaperMod'
         url = "/blog/"
         weight = 10
     [[menu.main]]
-        identifier = "iotd"
+        identifier = "cotd"
         name = "Chicken of the Day"
         url = "/cotd/"
+        weight = 20
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
         weight = 20
 
     showReadMore = true
