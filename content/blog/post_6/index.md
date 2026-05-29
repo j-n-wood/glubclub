@@ -61,6 +61,6 @@ The bot suggests some sort of DNS issue when signal strength is tenuous. Signal 
 
 Finally find a suggestion to _change default search engine_. This works! I'm sure there is some totally BS reason why. DuckDuckGo is my new friend. Apparently I should be able to change back to default google, but if I do, the problem recurs.
 
-Yay software again. I'm sure the features that are breaking are 'better' somehow because of this feature. More convenient! SHow stuff in you face withing moments that you probably didn't want! Hooray! And no fallback for 'old' devices that are still in real terms very powerful, or robust handling of non-happy-path.
+Yay software again. I'm sure the features that are breaking are 'better' somehow because of this feature. More convenient! Shove stuff in your face within moments that you probably didn't want! Hooray! And no fallback for 'old' devices that are still in real terms very powerful, or robust handling of non-happy-path.
 
 I'm OK with DuckDuckGo.
